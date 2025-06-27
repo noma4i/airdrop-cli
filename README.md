@@ -2,12 +2,13 @@
 
 AirDrop CLI for file sharing on macOS.
 
-## Installation
 
 ### Prerequisites
 
 - macOS 10.12 or later
 - Xcode Command Line Tools: `xcode-select --install`
+
+### Installation
 
 ```bash
 npm install -g airdrop-cli
