@@ -1,6 +1,6 @@
 {
   "name": "airdrop-cli",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "AirDrop CLI for file sharing on macOS",
   "license": "MIT",
   "author": "noma4i",
