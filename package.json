@@ -1,0 +1,47 @@
+{
+  "name": "airdrop-cli",
+  "version": "1.0.0",
+  "description": "AirDrop CLI for file sharing on macOS",
+  "license": "MIT",
+  "author": "noma4i",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/noma4i/airdrop-cli.git"
+  },
+  "bugs": {
+    "url": "https://github.com/noma4i/airdrop-cli/issues"
+  },
+  "homepage": "https://github.com/noma4i/airdrop-cli#readme",
+  "main": "src/index.js",
+  "bin": {
+    "airdrop": "./src/index.js"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "os": [
+    "darwin"
+  ],
+  "keywords": [
+    "airdrop",
+    "cli",
+    "macos",
+    "file-sharing",
+    "share",
+    "native"
+  ],
+  "scripts": {
+    "start": "node src/index.js",
+    "build": "node-gyp configure build",
+    "rebuild": "node-gyp rebuild",
+    "postinstall": "node-gyp rebuild",
+    "prepublishOnly": "npm run build"
+  },
+  "dependencies": {
+    "commander": "^11.0.0"
+  },
+  "devDependencies": {
+    "node-gyp": "^10.0.0"
+  },
+  "gypfile": true
+}

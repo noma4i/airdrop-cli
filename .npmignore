@@ -1,0 +1,43 @@
+# Development files
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Source files that don't need to be packaged
+src/native/*.o
+src/native/*.a
+build/
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Testing
+coverage/
+.coverage
+.nyc_output/
+
+# Temporary files
+tmp/
+temp/
+
+# Lock files (users should generate their own)
+package-lock.json
+yarn.lock
+
+# Git
+.git/
+.gitignore
