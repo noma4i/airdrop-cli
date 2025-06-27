@@ -1,7 +1,6 @@
-# AirDrop CLI
+# airdrop-cli
 
-AirDrop CLI for file sharing on macOS.
-
+A command-line tool that allows you to share files and URLs with Apple devices using AirDrop from your terminal.
 
 ### Prerequisites
 
